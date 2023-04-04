@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    .navbar {
+    background-color: rgba(0, 0, 0, 0.271);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    }
+    
+    .navbar a {
+    color: white;
+    padding: 15px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    align-self: center;
+    }
+    
+    .navbar a:hover {
+    background-color: #1e2fc3;
+    
+    }
+    
+    header {
+    background-image: url( https://via.placeholder.com/1920x1080.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    }
+    
+    .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+   
+    }
+    
+    .header-text h1 {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    }
+    
+    section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    }
+    
+    .subsection {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e0d9d9;
+    box-shadow: 15px 10px 10px rgb(2, 52, 62);
+    }
+    
+    .subsection img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid rgb(4, 73, 84);
+    }
+    
+    .styled-list {
+    list-style-type: disc;
+    color: rgb(79, 79, 161);
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    input[type="text"], textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+    background-color:rgb(48, 47, 45);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    input[type="submit"]:hover {
+        background-color:rgb(91, 166, 201);
+    color:antiquewhite
+    }
+    
+    footer {
+        background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 1px;
+    }
